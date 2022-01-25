@@ -19,8 +19,8 @@
     --secondary-border-color: var(--secondary-color);
 
     /* sizes */
-    --max-container-width: 1366px;
-    --header-height: 48px;
+    --max-container-width: 992px;
+    --header-height: 3rem;
 
-    --font-size: 16px;
+    --font-size: 12px;
 }

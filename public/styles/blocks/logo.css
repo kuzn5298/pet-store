@@ -1,8 +1,8 @@
 .logo {
   cursor: pointer;
   display: grid;
-  grid-template-columns: 64px max-content;
-  column-gap: 16px;
+  grid-template-columns: 4rem max-content;
+  column-gap: 1rem;
   align-items: center;
 }
 

@@ -1,7 +1,7 @@
 .catalog-button {
     display: flex;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: var(--secondary-background-color);
     padding: 0.5rem 2rem;
     cursor: pointer;

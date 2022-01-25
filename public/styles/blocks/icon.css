@@ -1,0 +1,29 @@
+.icon-xs {
+  object-fit: cover;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.icon-s {
+  object-fit: cover;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.icon-m {
+  object-fit: cover;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-l {
+  object-fit: cover;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.icon-xl {
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+}

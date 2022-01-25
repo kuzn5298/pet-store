@@ -7,9 +7,9 @@
 .slider__display {
   cursor: pointer;
   overflow: hidden;
-  height: 500px;
+  height: calc(var(--max-container-width) / 2.5);
   width: 100%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   margin-bottom: 3rem;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .slider__dots ul li {
-  height: 20px;
-  width: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
   border-radius: 50%;
   margin: 0 1.25rem;
   cursor: pointer;
