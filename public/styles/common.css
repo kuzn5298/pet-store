@@ -1,14 +1,26 @@
 :root {
   font-family: "Montserrat", sans-serif;
+  font-size: var(--font-size);
 }
 
 body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   background-color: var(--primary-background-color);
 }
+
+.container {
+  max-width: var(--max-container-width);
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+  box-sizing: content-box;
+}
+
+/* grid */
 
 .grid {
   display: grid;
@@ -74,4 +86,20 @@ body {
 
 .grid > .col-11 {
   grid-column: span 12;
+}
+
+/* margin */
+
+.me-1 {
+  margin-right: 0.25rem;
+}
+
+.me-3 {
+  margin-right: 3rem;
+}
+
+/* padding */
+
+.pt-5 {
+  padding-top: 3rem;
 }

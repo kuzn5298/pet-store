@@ -1,0 +1,29 @@
+.icon-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+  padding: 0
+}
+
+.icon-button:hover {
+    color: var(--primary-text-color);
+}
+
+.icon-button__icon {
+    height: 36px;
+    width: 36px;
+    object-fit: contain;
+    margin-bottom: 0.25rem;
+}
+
+.icon-button__text {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+

@@ -1,0 +1,25 @@
+.logo {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 64px max-content;
+  column-gap: 16px;
+  align-items: center;
+  color: var(--primary-text-color);
+}
+
+.logo__icon {
+  grid-row: 1/3;
+}
+
+.logo__title {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.logo__subtitle {
+  text-align: center;
+  font-size: 0.8125rem;
+  grid-column: 2;
+  grid-row: 2;
+  font-weight: 500;
+}

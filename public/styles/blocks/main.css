@@ -1,0 +1,5 @@
+/* Main */
+
+.main {
+  padding-top: calc(var(--header-height) + 3rem);
+}

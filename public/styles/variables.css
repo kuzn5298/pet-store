@@ -2,17 +2,23 @@
     /* main colors */
     --primary-color: #E74645;
     --secondary-color: #FB7756;
-    --secondary-light-color: #FDEBE3    
+    --secondary-light-color: #FDEBE3;  
 
-    /* color text*/
+    /* text color */
     --primary-text-color: var(--primary-color);
     --secondary-text-color: var(--secondary-color);
     --contrast-text-color: #fff;
 
-    /* color background color*/
+    /* background color*/
     --primary-background-color: #fff;
     --header-background-color: var(--primary-color);
 
+    /* border color */
+    --secondary-border-color: var(--secondary-color);
+
     /* sizes */
     --max-container-width: 1366px;
+    --header-height: 48px;
+
+    --font-size: 16px;
 }
