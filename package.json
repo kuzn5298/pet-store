@@ -4,8 +4,11 @@
   "description": "Simple ZPet Store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d public"
   },
   "author": "kuzn5298@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
