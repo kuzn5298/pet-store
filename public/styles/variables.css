@@ -10,7 +10,9 @@
     --contrast-text-color: #fff;
 
     /* background color*/
-    --primary-background-color: #fff;
+    --background-color: #fff;
+    --primary-background-color: var(--primary-color);
+    --secondary-background-color: var(--secondary-color);
     --header-background-color: var(--primary-color);
 
     /* border color */
