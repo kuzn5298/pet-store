@@ -1,0 +1,18 @@
+:root {
+    /* main colors */
+    --primary-color: #E74645;
+    --secondary-color: #FB7756;
+    --secondary-light-color: #FDEBE3    
+
+    /* color text*/
+    --primary-text-color: var(--primary-color);
+    --secondary-text-color: var(--secondary-color);
+    --contrast-text-color: #fff;
+
+    /* color background color*/
+    --primary-background-color: #fff;
+    --header-background-color: var(--primary-color);
+
+    /* sizes */
+    --max-container-width: 1366px;
+}
