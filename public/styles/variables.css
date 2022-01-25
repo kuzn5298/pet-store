@@ -13,6 +13,7 @@
     --background-color: #fff;
     --primary-background-color: var(--primary-color);
     --secondary-background-color: var(--secondary-color);
+    --secondary-light-background-color: var(--secondary-light-color);
     --header-background-color: var(--primary-color);
 
     /* border color */
