@@ -5,6 +5,7 @@
 }
 
 .slider__display {
+  cursor: pointer;
   overflow: hidden;
   height: 500px;
   width: 100%;

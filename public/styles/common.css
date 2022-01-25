@@ -12,6 +12,17 @@ body {
   background-color: var(--background-color);
 }
 
+a {
+  color: var(--contrast-text-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-shadow: -0.25px -0.25px 1px var(--contrast-text-color),
+    0.25px 0.25px 1px var(--contrast-text-color);
+}
+
 .container {
   max-width: var(--max-container-width);
   margin: auto;
@@ -38,6 +49,10 @@ body {
 
 .grid.align-item-center {
   align-items: center;
+}
+
+.grid.align-item-start {
+  align-items: flex-start;
 }
 
 .grid > .col-1 {
@@ -94,8 +109,24 @@ body {
   margin-right: 0.25rem;
 }
 
+.me-2 {
+  margin-right: 0.5rem;
+}
+
 .me-3 {
+  margin-right: 1rem;
+}
+
+.me-4 {
+  margin-right: 1.5rem;
+}
+
+.me-5 {
   margin-right: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
 }
 
 .mb-5 {

@@ -4,7 +4,6 @@
   grid-template-columns: 64px max-content;
   column-gap: 16px;
   align-items: center;
-  color: var(--primary-text-color);
 }
 
 .logo__icon {
