@@ -26,4 +26,4 @@ jobs:
           target_branch: gh-pages
           build_dir: public
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # default secret for auth
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_GITHUB_TOKEN }} # default secret for auth
