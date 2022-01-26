@@ -1,29 +1,94 @@
+/* icons */
+
+.icon-logo {
+  mask: url(../../images/logo.svg);
+  -webkit-mask: url(../../images/logo.svg);
+}
+
+.icon-search {
+  mask: url(../../images/icons/search.svg);
+  -webkit-mask: url(../../images/icons/search.svg);
+}
+
+.icon-bookmark {
+  mask: url(../../images/icons/bookmark.svg);
+  -webkit-mask: url(../../images/icons/bookmark.svg);
+}
+
+.icon-bag {
+  mask: url(../../images/icons/bag.svg);
+  -webkit-mask: url(../../images/icons/bag.svg);
+}
+
+.icon-burger {
+  mask: url(../../images/icons/burger.svg);
+  -webkit-mask: url(../../images/icons/burger.svg);
+}
+
+.icon-pet-foot {
+  mask: url(../../images/icons/pet_foot.svg);
+  -webkit-mask: url(../../images/icons/pet_foot.svg);
+}
+
+.icon-instagram {
+  mask: url(../../images/icons/instagram.svg);
+  -webkit-mask: url(../../images/icons/instagram.svg);
+}
+
+.icon-facebook {
+  mask: url(../../images/icons/facebook.svg);
+  -webkit-mask: url(../../images/icons/facebook.svg);
+}
+
+.icon-location {
+  mask: url(../../images/icons/location.svg);
+  -webkit-mask: url(../../images/icons/location.svg);
+}
+
+.icon-down {
+  mask: url(../../images/icons/down.svg);
+  -webkit-mask: url(../../images/icons/down.svg);
+}
+
+.icon-account {
+  mask: url(../../images/icons/account.svg);
+  -webkit-mask: url(../../images/icons/account.svg);
+}
+
+/* sizes */
+.icon {
+  display: inline-block;
+  background-color: var(--default-icon-background-color);
+
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 .icon-xs {
-  object-fit: cover;
   height: 0.75rem;
   width: 0.75rem;
 }
 
 .icon-s {
-  object-fit: cover;
   height: 1.25rem;
   width: 1.25rem;
 }
 
 .icon-m {
-  object-fit: cover;
   height: 1.5rem;
   width: 1.5rem;
 }
 
 .icon-l {
-  object-fit: cover;
   height: 2.25rem;
   width: 2.25rem;
 }
 
 .icon-xl {
-  object-fit: cover;
   height: 4rem;
   width: 4rem;
 }

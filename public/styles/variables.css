@@ -8,12 +8,15 @@
     --primary-text-color: var(--primary-color);
     --secondary-text-color: var(--secondary-color);
     --contrast-text-color: #fff;
+    --color-text: #000;
 
     /* background color*/
     --background-color: #fff;
     --primary-background-color: var(--primary-color);
     --secondary-background-color: var(--secondary-color);
     --secondary-light-background-color: var(--secondary-light-color);
+
+    --default-icon-background-color: #000;
 
     /* border color */
     --secondary-border-color: var(--secondary-color);
@@ -23,4 +26,28 @@
     --header-height: 3rem;
 
     --font-size: 0.8vw;
+}
+
+.dark:root {
+     /* main colors */
+     --primary-color: #161b22;
+     --secondary-color: #282e33;
+     --secondary-light-color: #6e768166;  
+ 
+     /* text color */
+     --primary-text-color: #c9d1d9;
+     --secondary-text-color: #f0f6fcb3;
+     --contrast-text-color: #f0f6fcb3;
+     --color-text: #c9d1d9;
+ 
+     /* background color*/
+     --background-color: #0d1117;
+     --primary-background-color: var(--primary-color);
+     --secondary-background-color: var(--secondary-color);
+     --secondary-light-background-color: var(--secondary-light-color);
+ 
+     --default-icon-background-color: #000;
+ 
+     /* border color */
+     --secondary-border-color: var(--secondary-color);
 }

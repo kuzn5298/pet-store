@@ -11,7 +11,12 @@
     color: var(--primary-text-color);
 }
 
+.icon-button:hover .icon-button__icon{
+    background-color: var(--primary-text-color);
+}
+
 .icon-button__icon {
+    background-color: var(--secondary-text-color);
     height: 2.25rem;
     width: 2.25rem;
     object-fit: contain;

@@ -13,6 +13,10 @@
   color: var(--contrast-text-color);
 }
 
+.footer__logo-icon {
+  background-color: var(--contrast-text-color);
+}
+
 .footer__information {
   height: 100%;
   font-size: 1.125rem;
@@ -31,6 +35,7 @@
   font-weight: 600;
 }
 
-.footer__social-icons img {
+.footer__social-icons i {
   cursor: pointer;
+  background-color: var(--contrast-text-color);
 }

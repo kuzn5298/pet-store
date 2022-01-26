@@ -89,6 +89,7 @@ button {
   vertical-align: baseline;
   outline: none;
   background-color: transparent;
+  color: inherit;
 }
 /* HTML5 display-role reset for older browsers */
 article,

@@ -21,6 +21,10 @@
   color: var(--contrast-text-color);
 }
 
+.header__container i {
+  background-color: var(--contrast-text-color);
+}
+
 .header__location {
   cursor: pointer;
   display: flex;
