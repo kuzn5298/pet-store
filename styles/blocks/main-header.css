@@ -1,0 +1,12 @@
+.main-header__logo {
+  color: var(--primary-text-color);
+}
+
+.main-header__logo-icon {
+  background-color: var(--primary-text-color);
+}
+
+.main-header__action {
+  display: flex;
+  justify-content: flex-end;
+}

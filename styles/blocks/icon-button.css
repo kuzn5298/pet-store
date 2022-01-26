@@ -1,0 +1,30 @@
+.icon-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+    color: var(--primary-text-color);
+}
+
+.icon-button:hover .icon-button__icon{
+    background-color: var(--primary-text-color);
+}
+
+.icon-button__icon {
+    background-color: var(--secondary-text-color);
+    height: 2.25rem;
+    width: 2.25rem;
+    object-fit: contain;
+    margin-bottom: 0.25rem;
+}
+
+.icon-button__text {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+

@@ -1,0 +1,54 @@
+/* Header */
+
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-background-color);
+  height: var(--header-height);
+}
+
+.header__container {
+  max-width: var(--max-container-width);
+  padding: 0 1rem;
+  box-sizing: content-box;
+  height: 100%;
+  margin: auto;
+  white-space: nowrap;
+  font-size: 1.125rem;
+  color: var(--contrast-text-color);
+}
+
+.header__container i {
+  background-color: var(--contrast-text-color);
+}
+
+.header__location {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.header__navigation ul {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.header__navigation ul li {
+  margin: 0 1rem;
+}
+
+.header__phone {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.header__account {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

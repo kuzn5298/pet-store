@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 1.25rem;
+  border: calc(1rem / 5) solid var(--secondary-border-color);
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.search__icon {
+  margin-right: 1em;
+  background-color: var(--secondary-text-color);
+}
+
+.search__input {
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--primary-text-color);
+  padding: 1rem 0;
+}
+
+.search__input::placeholder {
+  color: var(--secondary-text-color);
+}

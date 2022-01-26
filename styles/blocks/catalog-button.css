@@ -1,0 +1,31 @@
+.catalog-button {
+    display: flex;
+    align-items: center;
+    border-radius: 1.25rem;
+    background-color: var(--secondary-background-color);
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.catalog-button i {
+    background-color: var(--contrast-text-color);
+}
+
+.catalog-button:hover {
+    background-color: var(--primary-background-color);
+}
+
+.catalog-button__text {
+    flex: 1;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--contrast-text-color);
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.catalog-button__small-icon {
+    transform: scale(0.8) rotate(-15deg);
+}
